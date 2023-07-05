@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #0C0B10;
+}
+
+.app-container {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95vw;
+    height: 95vh;
+    row-gap: 1rem;
+}
+
+.title {
+    color: #7E7C89;
+    font-size: 3rem;
+    font-family: 'Caveat', cursive;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.912px;
+    height: 2rem;
+}
+
+.password-display-unit {
+    display: flex;
+    width: 40vw;
+    height: 7vh;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #24232B;
+    align-items: center;
+}
+
+.password-display {
+    background: #24232B;
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+    color: #FFF;
+}
+
+.password-copy-btn {
+    background: #24232B;
+    cursor: pointer;
+}
+
+.password-config-container {
+    background: #24232B;
+    width: 40vw;
+    height: 50vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.password-config-title-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.password-config-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem;
+}
+
+.password-config-input-container {
+    display: flex;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.password-length {
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #A4FFAF;
+}
+
+.input-range {
+    width: 80%;
+    cursor: pointer;
+}
+
+.password-config-input-label {
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+
+
+.password-length-selector-container {
+    display: flex;
+    justify-content: center;
+}
+
+.password-config-list {
+    list-style: square;
+}
+
+.password-strength-text {
+    text-transform: uppercase;
+}
+
+.checkbox {
+    width: 20px;
+}
+
+.password-strength{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: #18171F;
+    justify-content: space-around;
+    padding: 0 2rem;
+}
+
+.password-strength-container{
+    width: 95%;
+    background: #18171F;
+    height: 5vh;
+    align-items: center;
+    display: flex;
+}
+
+.password-strength-indicator-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.password-strength-indicator{
+    width: 1rem;
+    height: 2rem;
+    border: 2.1px solid #FFFFFF;
+    margin: 0 0.3rem;
+}
+
+.highlight{
+    background-color:  #A4FFAF;
+}
+
+.password-generate-btn-container{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin: 1rem 0;
+    padding: 0 0.8rem;
+    
+}
+
+.generate-password-btn{
+    justify-content: center;
+    text-transform: uppercase;
+    width: 100%;
+    background: #A4FFAF;
+    height: 5vh;
+    cursor: pointer;
+    color: #04210F;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+
+.--disabled{
+    pointer-events: none;
+    opacity: 0.3;
+}
